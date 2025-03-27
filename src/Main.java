@@ -40,5 +40,10 @@ public class Main {
             amountSavings = (savings * i) + ((amountSavings / 100) * 1);
             System.out.println("Месяц " + i + " ,сумма накоплений равна " + amountSavings + " рублей");
         }
+
+        int number = 2;
+        for(int i = 1; i <= 10; i++){
+            System.out.println(number + " * " + i + " = " + (number * i));
+        }
     }
 }
