@@ -34,5 +34,11 @@ public class Main {
             System.out.println("Месяц " + i + " ,сумма накоплений равна " + amountSavings + " рублей");
         }
 
+        savings = 29_000;
+        amountSavings = 0;
+        for(int i = 1;i <= 12; i++){
+            amountSavings = (savings * i) + ((amountSavings / 100) * 1);
+            System.out.println("Месяц " + i + " ,сумма накоплений равна " + amountSavings + " рублей");
+        }
     }
 }
