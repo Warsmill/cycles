@@ -26,5 +26,13 @@ public class Main {
         for (int i = 1; i <= 512; i*=2){
             System.out.println(i);
         }
+
+        int savings = 29000;
+        int amountSavings = 0;
+        for (int i = 1; i  <= 12; i++){
+            amountSavings += savings;
+            System.out.println("Месяц " + i + " ,сумма накоплений равна " + amountSavings + " рублей");
+        }
+
     }
 }
